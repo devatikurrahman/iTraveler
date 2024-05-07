@@ -14,6 +14,8 @@
 		6012517B2BEA9B31003C50D5 /* iTravelerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012517A2BEA9B31003C50D5 /* iTravelerTests.swift */; };
 		601251852BEA9B31003C50D5 /* iTravelerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601251842BEA9B31003C50D5 /* iTravelerUITests.swift */; };
 		601251872BEA9B31003C50D5 /* iTravelerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601251862BEA9B31003C50D5 /* iTravelerUITestsLaunchTests.swift */; };
+		601251942BEAA33E003C50D5 /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601251932BEAA33E003C50D5 /* TripView.swift */; };
+		601251962BEAA368003C50D5 /* TripDestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601251952BEAA368003C50D5 /* TripDestinationsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		601251802BEA9B31003C50D5 /* iTravelerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTravelerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		601251842BEA9B31003C50D5 /* iTravelerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTravelerUITests.swift; sourceTree = "<group>"; };
 		601251862BEA9B31003C50D5 /* iTravelerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTravelerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		601251932BEAA33E003C50D5 /* TripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
+		601251952BEAA368003C50D5 /* TripDestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDestinationsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				601251692BEA9B2F003C50D5 /* iTravelerApp.swift */,
 				6012516B2BEA9B2F003C50D5 /* HomeView.swift */,
+				601251932BEAA33E003C50D5 /* TripView.swift */,
+				601251952BEAA368003C50D5 /* TripDestinationsView.swift */,
 				6012516D2BEA9B30003C50D5 /* Assets.xcassets */,
 				6012516F2BEA9B30003C50D5 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601251962BEAA368003C50D5 /* TripDestinationsView.swift in Sources */,
+				601251942BEAA33E003C50D5 /* TripView.swift in Sources */,
 				6012516C2BEA9B2F003C50D5 /* HomeView.swift in Sources */,
 				6012516A2BEA9B2F003C50D5 /* iTravelerApp.swift in Sources */,
 			);

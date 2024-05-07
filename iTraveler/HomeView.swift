@@ -9,13 +9,18 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            Group {
+                TripView()
+                    .tabItem {
+                        Label("Trips", systemImage: "map")
+                    }
+                TripDestinationsView()
+                    .tabItem {
+                        Label("Trips Destination", systemImage: "globe.desk")
+                    }
+            }
         }
-        .padding()
     }
 }
 
