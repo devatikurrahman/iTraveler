@@ -17,9 +17,12 @@ struct HomeView: View {
                     }
                 TripDestinationsView()
                     .tabItem {
-                        Label("Trips Destination", systemImage: "globe.desk")
+                        Label("Destinations", systemImage: "globe.desk")
                     }
             }
+            .toolbarBackground(.opacity(0.8), for: .tabBar)
+            .toolbarBackground(.visible, for: .tabBar)
+            .toolbarColorScheme(.dark, for: .tabBar)
         }
     }
 }
