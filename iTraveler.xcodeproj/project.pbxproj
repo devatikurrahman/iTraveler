@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6012516A2BEA9B2F003C50D5 /* iTravelerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601251692BEA9B2F003C50D5 /* iTravelerApp.swift */; };
-		6012516C2BEA9B2F003C50D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012516B2BEA9B2F003C50D5 /* ContentView.swift */; };
+		6012516C2BEA9B2F003C50D5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012516B2BEA9B2F003C50D5 /* HomeView.swift */; };
 		6012516E2BEA9B30003C50D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6012516D2BEA9B30003C50D5 /* Assets.xcassets */; };
 		601251712BEA9B30003C50D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 601251702BEA9B30003C50D5 /* Preview Assets.xcassets */; };
 		6012517B2BEA9B31003C50D5 /* iTravelerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012517A2BEA9B31003C50D5 /* iTravelerTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		601251662BEA9B2F003C50D5 /* iTraveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTraveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		601251692BEA9B2F003C50D5 /* iTravelerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTravelerApp.swift; sourceTree = "<group>"; };
-		6012516B2BEA9B2F003C50D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6012516B2BEA9B2F003C50D5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6012516D2BEA9B30003C50D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		601251702BEA9B30003C50D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		601251762BEA9B31003C50D5 /* iTravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTravelerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				601251692BEA9B2F003C50D5 /* iTravelerApp.swift */,
-				6012516B2BEA9B2F003C50D5 /* ContentView.swift */,
+				6012516B2BEA9B2F003C50D5 /* HomeView.swift */,
 				6012516D2BEA9B30003C50D5 /* Assets.xcassets */,
 				6012516F2BEA9B30003C50D5 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6012516C2BEA9B2F003C50D5 /* ContentView.swift in Sources */,
+				6012516C2BEA9B2F003C50D5 /* HomeView.swift in Sources */,
 				6012516A2BEA9B2F003C50D5 /* iTravelerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
