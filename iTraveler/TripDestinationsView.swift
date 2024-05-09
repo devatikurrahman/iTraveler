@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct TripDestinationsView: View {
+    @State private var cameraPosition: MapCameraPosition = .automatic
     var body: some View {
-        Text("Trip Destination View")
+        Map()
     }
 }
 
