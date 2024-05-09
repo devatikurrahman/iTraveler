@@ -16,6 +16,7 @@
 		601251872BEA9B31003C50D5 /* iTravelerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601251862BEA9B31003C50D5 /* iTravelerUITestsLaunchTests.swift */; };
 		601251942BEAA33E003C50D5 /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601251932BEAA33E003C50D5 /* TripView.swift */; };
 		601251962BEAA368003C50D5 /* TripDestinationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601251952BEAA368003C50D5 /* TripDestinationsView.swift */; };
+		608C9F232BED3D96003C9748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608C9F222BED3D96003C9748 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		601251862BEA9B31003C50D5 /* iTravelerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTravelerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		601251932BEAA33E003C50D5 /* TripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
 		601251952BEAA368003C50D5 /* TripDestinationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDestinationsView.swift; sourceTree = "<group>"; };
+		608C9F222BED3D96003C9748 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				601251952BEAA368003C50D5 /* TripDestinationsView.swift */,
 				6012516D2BEA9B30003C50D5 /* Assets.xcassets */,
 				6012516F2BEA9B30003C50D5 /* Preview Content */,
+				608C9F222BED3D96003C9748 /* LaunchScreen.storyboard */,
 			);
 			path = iTraveler;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				608C9F232BED3D96003C9748 /* LaunchScreen.storyboard in Resources */,
 				601251712BEA9B30003C50D5 /* Preview Assets.xcassets in Resources */,
 				6012516E2BEA9B30003C50D5 /* Assets.xcassets in Resources */,
 			);
